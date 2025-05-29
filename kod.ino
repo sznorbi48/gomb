@@ -14,5 +14,5 @@ Serial.println("Benyomva");
 } else {  // ha a gomb felengedve (HIGH)
 Serial.println("Alapállás");
 }
-delay(100);  // kis késleltetés a stabilabb működés érdekében
+delay(50);  // kis késleltetés a stabilabb működés érdekében
 }
