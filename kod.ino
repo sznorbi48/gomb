@@ -10,9 +10,9 @@ void loop() {
 buttonState = digitalRead(buttonPin);  // olvassuk a nyomógomb állapotát
  
 if (buttonState == LOW) {  // ha a gomb lenyomva (LOW)
-Serial.println("Lenyomva");
+Serial.println("Benyomva");
 } else {  // ha a gomb felengedve (HIGH)
-Serial.println("Felengedve");
+Serial.println("Alapállás");
 }
 delay(100);  // kis késleltetés a stabilabb működés érdekében
 }
