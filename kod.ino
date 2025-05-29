@@ -2,7 +2,7 @@ const int buttonPin = 2;  // a nyomógomb a 2-es digitális bemenetre van kötv
 int buttonState = 0;      // változó a nyomógomb állapotának tárolására
  
 void setup() {
-Serial.begin(9600);     // soros kommunikáció indítása 9600 baud sebességgel
+Serial.begin(115200);     // soros kommunikáció indítása 9600 baud sebességgel
 pinMode(buttonPin, INPUT_PULLUP);  // a 2-es bemenetet pull-up ellenállással konfiguráljuk
 }
  
